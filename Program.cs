@@ -29,7 +29,7 @@ namespace namePutterer
 
            DirectoryInfo d = new DirectoryInfo(DirOffset);
 
-            FileInfo[] xlsxFiles = d.GetFiles("*.xlsx");
+            FileInfo[] xlsxFiles = d.GetFiles("*.xls");
 
             List<FileInfo> allFiles = d.GetFiles("*").ToList();
 
